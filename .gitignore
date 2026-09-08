@@ -1,0 +1,13 @@
+# Base de datos local (no subir datos personales al repo)
+data/quecono.db
+data/posters/*
+!data/posters/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
